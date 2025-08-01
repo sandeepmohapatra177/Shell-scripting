@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 << task
-Deploy DJango and docker and handle the errors
+Deploy DJango 
 
 task
 
