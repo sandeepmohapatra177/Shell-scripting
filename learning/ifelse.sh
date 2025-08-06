@@ -2,20 +2,20 @@
 #
 
 << comment
-ha ha..checking loyality of mitra
+Checking if Armit is rich
 comment
 
-read -p "enter the girl:" girlfriend
+read -p "enter the name:" namoftheboy
 read -p "money spent:" spent
-if [[ $girlfriend == "Deepti" ]];
+if [[ $nameoftheboy == "Deepti" ]];
 	
 then
-	echo "Mitra is loyal"
+	echo "Armit is rich"
 
 elif [[$spent >= 100]];
 
 then 
-	echo "Mitra is loyal and spent more than 100 rupees"
+	echo "Armit is rich and spent more than 100 rupees"
 else
-	echo "Mitra is nalua"
+	echo "Armit is not rich"
 fi
