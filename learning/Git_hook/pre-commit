@@ -1,0 +1,11 @@
+files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+
+flake8 $files
+
+if git grep -q "password\|APIKEY" $(git diff --cached --name-only); then
+
+  echo "check karo if you have put any secrets"
+
+  exit1
+
+fi
